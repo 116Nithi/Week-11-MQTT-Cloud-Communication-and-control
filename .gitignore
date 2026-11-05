@@ -13,3 +13,5 @@ dependencies.lock
 managed_components/
 *.old
 sdkconfig
+# TLS keys and certificates must never be committed
+**/main/certs/
